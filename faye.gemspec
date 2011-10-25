@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   
   s.require_paths     = %w[lib]
 
-  s.add_dependency "eventmachine", "= 0.12.6"
+  s.add_dependency "eventmachine", ">= 0.12.6"
   s.add_dependency "em-http-request", "~> 0.3"
   s.add_dependency "json", ">= 1.0"
   s.add_dependency "thin", "~> 1.2"
